@@ -15,7 +15,7 @@ module.exports = {
           res.status(200).send(objReturn)
           console.log(objReturn)
           return;
-        }
+        } 
       }
       res.status(400).send("User not found.")
     },
@@ -36,3 +36,4 @@ module.exports = {
       res.status(200).send(req.body)
     }
 }
+
